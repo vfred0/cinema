@@ -1,0 +1,17 @@
+.selectbox-options {
+  font-size : var(--size-normal);
+  padding   : .275em;
+  background: $dark-primary;
+  color     : $text-primary;
+  border    : .05em solid $red-secondary;
+
+  &:hover {
+    background-color: $red-primary;
+  }
+}
+
+
+
+.selectbox {
+  padding-right: .275em;
+}

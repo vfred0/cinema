@@ -1,0 +1,55 @@
+.section-profile {
+  color       : $text-secondary;
+  width       : fit-content;
+  margin-right: auto;
+  margin-left : auto;
+
+  &__option {
+    padding-bottom: 1em;
+    border-bottom : 1px solid $text-secondary;
+    padding-bottom: 16px;
+    margin-bottom : 1.3em;
+
+    >svg {
+      width: 2em;
+
+      >path {
+        fill: $text-secondary;
+      }
+    }
+  }
+
+  &__option {
+    display    : flex;
+    align-items: center;
+  }
+
+  &__header {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+  }
+
+  &__header &__picture {
+    width        : 200px;
+    height       : 100px;
+    object-fit   : cover;
+    border-radius: .5em;
+  }
+
+  &__option &__picture {
+    width       : 20px;
+    height      : 20px;
+    margin-right: 1em;
+  }
+
+  &__options {
+    margin-top: 1.3em;
+
+  }
+}
+
+.section-profile__name {
+  color: $text-secondary;
+
+}

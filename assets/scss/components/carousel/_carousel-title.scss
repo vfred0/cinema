@@ -1,0 +1,15 @@
+.section-main {
+  display       : flex;
+  align-items   : center;
+  padding-bottom: .5em;
+
+  &__title {
+    color       : $text-primary;
+    margin-right: .5em;
+
+  }
+
+  &__subtitle {
+    color: $text-tertiary;
+  }
+}

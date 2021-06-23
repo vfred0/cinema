@@ -1,0 +1,30 @@
+.carousel-item.episode {
+  position: relative;
+
+}
+
+.carousel-item {
+
+  &__picture {
+    width       : 250px;
+    height      : 160px;
+    padding-left: .5em;
+    object-fit  : cover;
+
+    &:hover {
+      cursor    : pointer;
+      transform : scale(1.05);
+      transition: .3s;
+    }
+  }
+
+  &__title {
+    position        : absolute;
+    color           : $text-secondary;
+    bottom          : 0;
+    width           : 100%;
+    text-align      : center;
+    background-color: $dark-primary;
+
+  }
+}

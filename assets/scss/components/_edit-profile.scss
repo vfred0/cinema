@@ -1,0 +1,71 @@
+.selectbox {
+  .selectbox-options {
+    color           : $text-secondary;
+    background-color: $dark-primary;
+    border          : none;
+  }
+}
+
+.section-profile.edit {
+  .section-profile {
+    &__options {
+      width       : fit-content;
+      margin-right: auto;
+      margin-left : auto;
+    }
+
+    &__option.submit {
+      justify-content: center;
+      border         : none;
+    }
+
+    &__button {
+      padding         : 1em;
+      border          : none;
+      background-color: $dark-secondary;
+      color           : $text-primary;
+      border-radius   : .5em;
+    }
+
+    &__change-picture {
+      width        : 10em;
+      height       : 10em;
+      border-radius: 50%;
+    }
+
+    &__header {
+      justify-content: center;
+    }
+
+    &__name.change-pasword {
+      cursor: pointer;
+    }
+
+  }
+
+}
+
+.change-picture-container {
+  position: relative;
+
+}
+
+.section-profile__camera {
+  width   : 40%;
+  height  : 40%;
+  position: absolute;
+  bottom  : 10px;
+  right   : 0;
+  cursor  : pointer;
+}
+
+input {
+  border          : none;
+  background-color: $dark-primary;
+  color           : $text-secondary;
+  cursor          : pointer;
+}
+
+.none {
+  display: none;
+}

@@ -1,0 +1,30 @@
+.carousel-item__picture {
+  border-radius: 4px;
+}
+
+
+.section-main {
+  padding-left  : .5em;
+  padding-bottom: 1.2em;
+
+  >input {
+    border          : none;
+    border-radius   : .5em;
+    padding         : .5em;
+    background-color: $dark-secondary;
+    color           : $text-primary;
+    margin-right    : .8em;
+
+  }
+
+  >.selectbox {
+
+    >.selectbox-options {
+      background-color: $dark-primary;
+      color           : $text-primary;
+      padding         : .5em;
+      border-radius   : .5em;
+    }
+  }
+
+}

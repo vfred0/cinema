@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $('.carousel').slick({
+  $('.js-carousel').slick({
     mobileFirst: true,
     prevArrow:
       '<button class="slick-prev" aria-label="Previous" type="button">«</button>',
@@ -7,7 +7,7 @@ $(document).ready(function () {
       '<button class="slick-next" aria-label="Next" type="button">»</button>',
     // slidesToShow: 1,
     slidesToScroll: 1,
-    infinite: false,    
+    infinite: false,
     variableWidth: true
   });
 });

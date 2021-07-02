@@ -1,0 +1,138 @@
+.o-font {
+  &-normal {
+
+    font-weight: 400;
+    line-height: 21px;
+
+    @include only-xs {
+      font-size  : .875rem;
+      line-height: 40px;
+    }
+
+    @include only-sm {
+      font-size  : .975rem;
+      line-height: 40px;
+    }
+
+    @include only-md {
+      font-size  : 1rem;
+      line-height: 56px;
+    }
+  }
+
+  &-title {
+
+    font-weight: 400;
+    line-height: 21px;
+
+    @include only-xs {
+      font-size  : 1rem;
+      line-height: 40px;
+    }
+
+    @include only-sm {
+      font-size  : 1.2rem;
+      line-height: 40px;
+    }
+
+    @include only-md {
+      font-size  : 1.4rem;
+      line-height: 56px;
+    }
+
+  }
+
+
+  &-subtitle {
+
+    font-weight: 400;
+    line-height: 21px;
+
+    @include only-xs {
+      font-size  : .875rem;
+      line-height: 40px;
+    }
+
+    @include only-sm {
+      font-size  : .975rem;
+      line-height: 40px;
+    }
+
+    @include only-md {
+      font-size  : 1rem;
+      line-height: 56px;
+    }
+  }
+
+  &-small {
+
+    font-weight: 400;
+    line-height: 21px;
+
+    @include only-xs {
+      font-size  : .75rem;
+      line-height: 40px;
+    }
+
+    @include only-sm {
+      font-size  : .95rem;
+      line-height: 40px;
+    }
+
+    @include only-md {
+      font-size  : 1rem;
+      line-height: 56px;
+    }
+  }
+
+  &-smaller {
+
+    font-weight: 400;
+    line-height: 21px;
+
+    @include only-xs {
+      font-size  : .725rem;
+      line-height: 40px;
+    }
+
+    @include only-sm {
+      font-size  : .825rem;
+      line-height: 40px;
+    }
+
+    @include only-md {
+      font-size  : .925rem;
+      line-height: 56px;
+    }
+  }
+
+
+  //   // mobile
+  //   --size-title   : 1rem;
+  //   --size-subtitle: 0.875rem;
+  //   --size-normal  : 0.875rem;
+  //   --size-small   : 0.75rem;
+  //   --size-smaller : 0.725rem;
+
+  //   @media screen and (min-width: 960px) {
+  //     --size-title   : 1.4rem;
+  //     --size-subtitle: 0.975rem;
+  //     --size-normal  : 1rem;
+  //     --size-small   : 0.95rem;
+  //     --size-smaller : 0.85rem;
+  //   }
+  // }
+
+  // ;
+
+
+  // :root {
+
+  //   --i-small: 1em;
+
+
+  //   @media screen and(min-width: 960px) {
+  //     --i-small: 1.2em;
+  //   }
+  // }
+}

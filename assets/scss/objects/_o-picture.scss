@@ -1,0 +1,12 @@
+.o-picture {
+
+  &-movie {
+    border-radius: 4px;
+    object-fit   : cover;
+    width        : 160px;
+    padding-left : .5em;
+  }
+
+  &-episode {}
+
+}

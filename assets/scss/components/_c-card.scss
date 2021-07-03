@@ -1,11 +1,5 @@
-.carousel-item.episode {
-  position: relative;
-
-}
-
-.carousel-item {
-
-  &__picture {
+.c-card {
+  &__picture-episode {
     width       : 250px;
     height      : 160px;
     padding-left: .5em;
@@ -25,6 +19,19 @@
     width           : 100%;
     text-align      : center;
     background-color: $dark-primary;
+  }
 
+
+  &__picture-movie {
+    border-radius: 4px;
+    object-fit   : cover;
+    width        : 160px;
+    padding-left : .5em;
+
+    &:hover {
+      cursor    : pointer;
+      transform : scale(1.05);
+      transition: .3s;
+    }
   }
 }

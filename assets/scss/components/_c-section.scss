@@ -5,13 +5,12 @@
     padding-bottom: .5em;
   }
 
-  &__container--subtitle {
+  &__container-subtitle {
     color: $text-tertiary;
   }
 
-  &__container--title {
+  &__container-title {
     color       : $text-primary;
     margin-right: .5em;
   }
-
 }

@@ -1,7 +1,5 @@
 .c-card {
   &__picture-episode {
-    width       : 250px;
-    height      : 160px;
     padding-left: .5em;
     object-fit  : cover;
 
@@ -25,7 +23,6 @@
   &__picture-movie {
     border-radius: 4px;
     object-fit   : cover;
-    width        : 160px;
     padding-left : .5em;
 
     &:hover {

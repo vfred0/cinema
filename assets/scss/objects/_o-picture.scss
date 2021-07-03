@@ -1,12 +1,37 @@
 .o-picture {
 
   &-movie {
-    border-radius: 4px;
-    object-fit   : cover;
-    width        : 160px;
-    padding-left : .5em;
+
+    @include only-xs {
+      width: 8em;
+    }
+
+    @include only-sm {
+      width: 10em;
+    }
+
+    @include only-md {
+      width: 12em;
+
+    }
+
   }
 
-  &-episode {}
+  &-episode {
+    @include only-xs {
+      width : 250px;
+      height: 160px;
+    }
+
+    @include only-sm {
+      width : 260px;
+      height: 170px;
+    }
+
+    @include only-md {
+      width : 270px;
+      height: 180px;
+    }
+  }
 
 }

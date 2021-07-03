@@ -9,9 +9,8 @@
 }
 
 body {
-  font-family     : Roboto;
-  font-size       : var(--body--font-size);
   background-color: $dark-primary;
+  font-family     : $font-roboto;
 }
 
 a {

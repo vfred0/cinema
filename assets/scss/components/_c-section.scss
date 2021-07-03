@@ -15,32 +15,3 @@
   }
 
 }
-
-.slick-next,
-.slick-prev {
-  color     : $text-primary;
-  font-size : var(--size-title);
-  position  : absolute;
-  width     : 2em;
-  height    : 100%;
-  text-align: center;
-  z-index   : 10;
-  border    : 0;
-}
-
-.slick-prev {
-  background: linear-gradient(to right, $dark-primary 25%, hsla(207, 23%, 9%, .1));
-  left      : -1px;
-}
-
-.slick-next {
-  right     : -1px;
-  top       : 0;
-  background: linear-gradient(to left, $dark-primary 25%, hsla(207, 23%, 9%, .1));
-}
-
-.slick-prev:hover,
-.slick-next:hover {
-  transition: 0.3s ease-in-out;
-  cursor    : pointer;
-}

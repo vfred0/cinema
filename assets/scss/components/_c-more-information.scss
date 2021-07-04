@@ -1,0 +1,22 @@
+.c-more-information {
+  display              : inline-grid;
+  grid-template-columns: repeat(4, max-content);
+  grid-gap             : 0.375em;
+  justify-items        : center;
+  padding-top          : .5em;
+
+  &__item {
+    display              : inline-grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-gap             : 0.175em;
+    align-items          : center;
+
+    >svg {
+      width: .8em;
+
+      >path {
+        fill: $text-primary
+      }
+    }
+  }
+}

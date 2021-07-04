@@ -1,0 +1,10 @@
+.o-tag {
+
+  &-language {
+    border-radius   : 2px;
+    background-color: $red-secondary;
+    padding         : .172em;
+    color           : $text-primary;
+    margin-left     : .3em;
+  }
+}

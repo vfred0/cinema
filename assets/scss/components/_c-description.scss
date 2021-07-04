@@ -1,0 +1,15 @@
+.c-description {
+  display       : flex;
+  flex-direction: column;
+  color         : $text-secondary;
+  gap           : .3em;
+
+  &__header {
+    display    : flex;
+    align-items: center;
+
+  }
+
+  &__abstract {}
+
+}

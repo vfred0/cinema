@@ -1,0 +1,40 @@
+.c-poster-and-options {
+  display       : flex;
+  flex-direction: column;
+
+  &__poster {}
+
+  &__options {
+    justify-content      : center;
+    display              : inline-grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-gap             : 0.375em;
+    justify-items        : center;
+    padding              : 0.5em 0.2em;
+
+    &-heart,
+    &-history {
+      width : 2.5em;
+      cursor: pointer;
+
+      &-svg {
+        width: 65%;
+
+      }
+
+      &-icon {
+        fill: $dark-primary;
+
+      }
+
+      &:hover {
+
+        .c-poster-and-options__options-heart-icon,
+        .c-poster-and-options__options-history-icon {
+          fill      : $text-primary;
+          transition: .5s;
+        }
+      }
+    }
+  }
+}

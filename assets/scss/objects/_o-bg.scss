@@ -1,0 +1,20 @@
+.o-bg {
+
+  &-click {
+    background-color: $red-secondary;
+    display         : flex;
+    width           : 50px;
+    justify-content : center;
+    padding         : .2em;
+    border-radius   : .2em;
+  }
+
+  &-initial {
+    padding         : .2em;
+    border-radius   : .2em;
+    background-color: $text-tertiary;
+    display         : flex;
+    width           : 50px;
+    justify-content : center;
+  }
+}

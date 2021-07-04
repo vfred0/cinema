@@ -32,24 +32,20 @@ img {
 
 .o-font-title {
   font-weight: 700;
-  line-height: 21px;
 }
 @media (min-width: 0px) and (max-width: 500px) {
   .o-font-title {
     font-size: 1rem;
-    line-height: 40px;
   }
 }
 @media (min-width: 501px) and (max-width: 1100px) {
   .o-font-title {
     font-size: 1.2rem;
-    line-height: 40px;
   }
 }
 @media (min-width: 1101px) {
   .o-font-title {
     font-size: 1.4rem;
-    line-height: 56px;
   }
 }
 .o-font-subtitle {
@@ -59,19 +55,19 @@ img {
 @media (min-width: 0px) and (max-width: 500px) {
   .o-font-subtitle {
     font-size: 0.875rem;
-    line-height: 40px;
+    line-height: 20px;
   }
 }
 @media (min-width: 501px) and (max-width: 1100px) {
   .o-font-subtitle {
     font-size: 0.975rem;
-    line-height: 40px;
+    line-height: 20px;
   }
 }
 @media (min-width: 1101px) {
   .o-font-subtitle {
     font-size: 1rem;
-    line-height: 56px;
+    line-height: 22px;
   }
 }
 .o-font-normal {
@@ -81,19 +77,19 @@ img {
 @media (min-width: 0px) and (max-width: 500px) {
   .o-font-normal {
     font-size: 0.875rem;
-    line-height: 40px;
+    line-height: 20px;
   }
 }
 @media (min-width: 501px) and (max-width: 1100px) {
   .o-font-normal {
     font-size: 0.975rem;
-    line-height: 40px;
+    line-height: 20px;
   }
 }
 @media (min-width: 1101px) {
   .o-font-normal {
     font-size: 1rem;
-    line-height: 56px;
+    line-height: 22px;
   }
 }
 .o-font-small {
@@ -103,19 +99,19 @@ img {
 @media (min-width: 0px) and (max-width: 500px) {
   .o-font-small {
     font-size: 0.75rem;
-    line-height: 40px;
+    line-height: 20px;
   }
 }
 @media (min-width: 501px) and (max-width: 1100px) {
   .o-font-small {
     font-size: 0.95rem;
-    line-height: 40px;
+    line-height: 20px;
   }
 }
 @media (min-width: 1101px) {
   .o-font-small {
     font-size: 1rem;
-    line-height: 56px;
+    line-height: 22px;
   }
 }
 .o-font-smaller {
@@ -125,19 +121,19 @@ img {
 @media (min-width: 0px) and (max-width: 500px) {
   .o-font-smaller {
     font-size: 0.725rem;
-    line-height: 40px;
+    line-height: 20px;
   }
 }
 @media (min-width: 501px) and (max-width: 1100px) {
   .o-font-smaller {
     font-size: 0.825rem;
-    line-height: 40px;
+    line-height: 20px;
   }
 }
 @media (min-width: 1101px) {
   .o-font-smaller {
     font-size: 0.925rem;
-    line-height: 56px;
+    line-height: 22px;
   }
 }
 
@@ -181,6 +177,31 @@ img {
 
 .o-space-between {
   justify-content: space-between;
+}
+
+.o-bg-click {
+  background-color: #ba3b3b;
+  display: flex;
+  width: 50px;
+  justify-content: center;
+  padding: 0.2em;
+  border-radius: 0.2em;
+}
+.o-bg-initial {
+  padding: 0.2em;
+  border-radius: 0.2em;
+  background-color: #637b8c;
+  display: flex;
+  width: 50px;
+  justify-content: center;
+}
+
+.o-tag-language {
+  border-radius: 2px;
+  background-color: #ba3b3b;
+  padding: 0.172em;
+  color: white;
+  margin-left: 0.3em;
 }
 
 .c-header__menu {
@@ -299,4 +320,70 @@ img {
   position: absolute;
   width: 100%;
   height: 40vmin;
+}
+
+.c-more-information {
+  display: inline-grid;
+  grid-template-columns: repeat(4, max-content);
+  grid-gap: 0.375em;
+  justify-items: center;
+  padding-top: 0.5em;
+}
+.c-more-information__item {
+  display: inline-grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: 0.175em;
+  align-items: center;
+}
+.c-more-information__item > svg {
+  width: 0.8em;
+}
+.c-more-information__item > svg > path {
+  fill: white;
+}
+
+.c-details-multimedia {
+  display: inline-grid;
+  grid-template-columns: 8em 1fr;
+  gap: 0.5em;
+}
+
+.c-poster-and-options {
+  display: flex;
+  flex-direction: column;
+}
+.c-poster-and-options__options {
+  justify-content: center;
+  display: inline-grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: 0.375em;
+  justify-items: center;
+  padding: 0.5em 0.2em;
+}
+.c-poster-and-options__options-heart, .c-poster-and-options__options-history {
+  width: 2.5em;
+  cursor: pointer;
+}
+.c-poster-and-options__options-heart-svg, .c-poster-and-options__options-history-svg {
+  width: 65%;
+}
+.c-poster-and-options__options-heart-icon, .c-poster-and-options__options-history-icon {
+  fill: #12171c;
+}
+.c-poster-and-options__options-heart:hover .c-poster-and-options__options-heart-icon,
+.c-poster-and-options__options-heart:hover .c-poster-and-options__options-history-icon, .c-poster-and-options__options-history:hover .c-poster-and-options__options-heart-icon,
+.c-poster-and-options__options-history:hover .c-poster-and-options__options-history-icon {
+  fill: white;
+  transition: 0.5s;
+}
+
+.c-description {
+  display: flex;
+  flex-direction: column;
+  color: #a5b0c0;
+  gap: 0.3em;
+}
+.c-description__header {
+  display: flex;
+  align-items: center;
 }

@@ -1,5 +1,5 @@
 .c-details-multimedia {
   display              : inline-grid;
-  grid-template-columns: 8em 1fr;
+  grid-template-columns: max-content 1fr;
   gap                  : .5em;
 }

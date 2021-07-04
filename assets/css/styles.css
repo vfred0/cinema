@@ -157,6 +157,21 @@ img {
   }
 }
 @media (min-width: 0px) and (max-width: 500px) {
+  .o-picture-poster {
+    width: 10em;
+  }
+}
+@media (min-width: 501px) and (max-width: 1100px) {
+  .o-picture-poster {
+    width: 11em;
+  }
+}
+@media (min-width: 1101px) {
+  .o-picture-poster {
+    width: 12em;
+  }
+}
+@media (min-width: 0px) and (max-width: 500px) {
   .o-picture-episode {
     width: 250px;
     height: 160px;
@@ -344,7 +359,7 @@ img {
 
 .c-details-multimedia {
   display: inline-grid;
-  grid-template-columns: 8em 1fr;
+  grid-template-columns: max-content 1fr;
   gap: 0.5em;
 }
 

@@ -17,6 +17,23 @@
 
   }
 
+  &-poster {
+
+    @include only-xs {
+      width: 10em;
+    }
+
+    @include only-sm {
+      width: 11em;
+    }
+
+    @include only-md {
+      width: 12em;
+
+    }
+
+  }
+
   &-episode {
     @include only-xs {
       width : 250px;

@@ -179,6 +179,10 @@ img {
   }
 }
 
+.o-space-between {
+  justify-content: space-between;
+}
+
 .c-header__menu {
   display: flex;
   list-style: none;

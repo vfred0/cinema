@@ -205,6 +205,16 @@ img {
   fill: white;
   transition: 0.3s ease-in-out;
 }
+.c-header__menu-item-link-back {
+  width: 1em;
+}
+.c-header__menu-item-link-back > path {
+  fill: #a5b0c0;
+}
+.c-header__menu-item-link-back:hover > path {
+  fill: white;
+  transition: 0.3s;
+}
 
 .c-section__container {
   display: flex;

@@ -33,4 +33,19 @@
     }
   }
 
+  &__menu-item-link-back {
+    width: 1em;
+
+    >path {
+      fill: $text-secondary;
+    }
+
+    &:hover {
+      >path {
+        fill      : $text-primary;
+        transition: .3s;
+      }
+    }
+  }
+
 }

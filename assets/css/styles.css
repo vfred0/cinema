@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 *,
 *::before,
 *::after {
@@ -11,7 +11,7 @@
 
 body {
   background-color: #12171c;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -50,90 +50,74 @@ img {
 }
 .o-font-subtitle {
   font-weight: 500;
-  line-height: 21px;
 }
 @media (min-width: 0px) and (max-width: 500px) {
   .o-font-subtitle {
     font-size: 0.875rem;
-    line-height: 20px;
   }
 }
 @media (min-width: 501px) and (max-width: 1100px) {
   .o-font-subtitle {
     font-size: 0.975rem;
-    line-height: 20px;
   }
 }
 @media (min-width: 1101px) {
   .o-font-subtitle {
     font-size: 1rem;
-    line-height: 22px;
   }
 }
 .o-font-normal {
   font-weight: 400;
-  line-height: 21px;
 }
 @media (min-width: 0px) and (max-width: 500px) {
   .o-font-normal {
     font-size: 0.875rem;
-    line-height: 20px;
   }
 }
 @media (min-width: 501px) and (max-width: 1100px) {
   .o-font-normal {
     font-size: 0.975rem;
-    line-height: 20px;
   }
 }
 @media (min-width: 1101px) {
   .o-font-normal {
     font-size: 1rem;
-    line-height: 22px;
   }
 }
 .o-font-small {
-  font-weight: 400;
-  line-height: 21px;
+  font-weight: 300;
 }
 @media (min-width: 0px) and (max-width: 500px) {
   .o-font-small {
     font-size: 0.75rem;
-    line-height: 20px;
   }
 }
 @media (min-width: 501px) and (max-width: 1100px) {
   .o-font-small {
     font-size: 0.95rem;
-    line-height: 20px;
   }
 }
 @media (min-width: 1101px) {
   .o-font-small {
     font-size: 1rem;
-    line-height: 22px;
   }
 }
 .o-font-smaller {
   font-weight: 400;
-  line-height: 21px;
 }
 @media (min-width: 0px) and (max-width: 500px) {
   .o-font-smaller {
     font-size: 0.725rem;
-    line-height: 20px;
   }
 }
 @media (min-width: 501px) and (max-width: 1100px) {
   .o-font-smaller {
     font-size: 0.825rem;
-    line-height: 20px;
   }
 }
 @media (min-width: 1101px) {
   .o-font-smaller {
     font-size: 0.925rem;
-    line-height: 22px;
   }
 }
 
@@ -219,6 +203,46 @@ img {
   margin-left: 0.3em;
 }
 
+.o-icon-back {
+  vertical-align: middle;
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  .o-icon-back {
+    width: 1.2em;
+  }
+}
+@media (min-width: 501px) and (max-width: 1100px) {
+  .o-icon-back {
+    width: 1.3em;
+  }
+}
+@media (min-width: 1101px) {
+  .o-icon-back {
+    width: 1.4em;
+  }
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  .o-icon-search {
+    width: 1em;
+  }
+}
+@media (min-width: 501px) and (max-width: 1100px) {
+  .o-icon-search {
+    width: 1.1em;
+  }
+}
+@media (min-width: 1101px) {
+  .o-icon-search {
+    width: 1.2em;
+  }
+}
+
+.o-grid-results {
+  display: grid;
+  grid-gap: 0.1em;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+}
+
 .c-header__menu {
   display: flex;
   list-style: none;
@@ -229,6 +253,9 @@ img {
   text-align: center;
   color: #a5b0c0;
 }
+.c-header__menu-item-normal {
+  color: white;
+}
 .c-header__menu-item-link {
   color: inherit;
 }
@@ -236,11 +263,10 @@ img {
   color: white;
   transition: 0.3s ease-in-out;
 }
-.c-header__menu-item-link-search {
-  width: 1em;
+.c-header__menu-item-link-icon {
   fill: #a5b0c0;
 }
-.c-header__menu-item-link-search:hover {
+.c-header__menu-item-link-icon:hover {
   cursor: pointer;
   fill: white;
   transition: 0.3s ease-in-out;
@@ -401,4 +427,24 @@ img {
 .c-description__header {
   display: flex;
   align-items: center;
+}
+.c-search__container {
+  display: flex;
+  align-items: center;
+}
+.c-search-bar {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: none;
+}
+
+.c-selectbox {
+  padding-left: 0.2em;
+}
+.c-selectbox__container {
+  padding: 0.5em;
+  background: #ef7676;
+  color: #12171c;
+  border: 1px solid #3a586e;
+  border-radius: 0.5em;
 }

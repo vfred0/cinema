@@ -1,0 +1,32 @@
+.o-icon {
+  &-back {
+    vertical-align: middle;
+
+    @include only-xs {
+      width: 1.2em;
+    }
+
+    @include only-sm {
+      width: 1.3em;
+    }
+
+    @include only-md {
+      width: 1.4em;
+    }
+  }
+
+  &-search {
+
+    @include only-xs {
+      width: 1em;
+    }
+
+    @include only-sm {
+      width: 1.1em;
+    }
+
+    @include only-md {
+      width: 1.2em;
+    }
+  }
+}

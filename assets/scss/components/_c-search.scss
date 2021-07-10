@@ -1,0 +1,14 @@
+.c-search {
+  &__container {
+    display    : flex;
+    align-items: center;
+  }
+
+  &-bar {
+    padding      : .5em;
+    border-radius: .5em;
+    border       : none;
+  }
+
+
+}

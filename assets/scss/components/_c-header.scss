@@ -12,6 +12,10 @@
     color     : $text-secondary;
   }
 
+  &__menu-item-normal {
+    color: $text-primary;
+  }
+
   &__menu-item-link {
     color: inherit;
 
@@ -22,9 +26,8 @@
 
   }
 
-  &__menu-item-link-search {
-    width: 1em;
-    fill : $text-secondary;
+  &__menu-item-link-icon {
+    fill: $text-secondary;
 
     &:hover {
       cursor    : pointer;

@@ -1,0 +1,11 @@
+.c-selectbox {
+  padding-left: .2em;
+
+  &__container {
+    padding      : .5em;
+    background   : $red-tertiary;
+    color        : $dark-primary;
+    border       : 1px solid $dark-tertiary;
+    border-radius: .5em;
+  }
+}

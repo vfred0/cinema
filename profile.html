@@ -20,62 +20,74 @@
 <body>
 
   <body>
-    <header class="main-header">
-      <div class="l-container">
-        <ul class="main-menu">
-          <li class="main-menu__item">
-            <a href="./index.html" class="main-menu__link">
-              <svg class="main-menu__back" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <header class="c-header">
+      <div class="c-header__container o-container">
+        <ul class="c-header__menu">
+          <li class="c-header__menu-item">
+            <a class="c-header__menu-item-link" href="./index.html">
+              <svg class="c-header__menu-item-link-icon o-icon-back" viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg">
                 <path
-                  d="M18.6091 27.8468C19.2297 27.2262 19.2297 26.2199 18.6091 25.5993L8.49505 15.4853L18.6091 5.37123C19.2297 4.75059 19.2297 3.74433 18.6091 3.12368C17.9884 2.50304 16.9822 2.50304 16.3615 3.12369L5.1238 14.3614C4.83649 14.6487 4.68219 15.0187 4.66088 15.3947C4.63612 15.8311 4.79042 16.2757 5.12379 16.6091L16.3615 27.8468C16.9822 28.4675 17.9884 28.4675 18.6091 27.8468Z"
-                  fill="black" />
+                  d="M18.6091 27.8468C19.2297 27.2262 19.2297 26.2199 18.6091 25.5993L8.49505 15.4853L18.6091 5.37123C19.2297 4.75059 19.2297 3.74433 18.6091 3.12368C17.9884 2.50304 16.9822 2.50304 16.3615 3.12369L5.1238 14.3614C4.83649 14.6487 4.68219 15.0187 4.66088 15.3947C4.63612 15.8311 4.79042 16.2757 5.12379 16.6091L16.3615 27.8468C16.9822 28.4675 17.9884 28.4675 18.6091 27.8468Z" />
               </svg>
             </a>
           </li>
-          <li class="main-menu__item">
-            <span class="title">
-              Profile
-            </span>
+          <li class="c-header__menu-item">
+            <div class="c-header__menu-item-normal o-font-title">Perfil</div>
           </li>
         </ul>
       </div>
     </header>
 
-
     <main>
-      <section class="l-container">
-        <div class="section-profile">
-          <div class="section-profile__header">
-            <img src="assets/img/movies/example01.jpg" class="section-profile__picture">
-            <span class="section-profile__name title">Alexis Lozada</span>
-          </div>
+      <section class="o-container">
 
-          <div class="section-profile__options">
-            <div class="section-profile__option">
-              <svg class="section-profile__picture" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                <path
-                  d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z" />
-              </svg>
-              <a href="./edit-profile.html">
-                <span class="section-profile__name normal">Perfil y contrasseña</span>
-              </a>
-            </div>
-            <div class="section-profile__option">
-
-              <svg class="section-profile__picture" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M0.610755 4.07859C0.730393 4.02798 0.861929 4 1 4H20C20.5523 4 21 4.44772 21 5V10C21 10.5523 20.5523 11 20 11C19.4477 11 19 10.5523 19 10V6L2 6V26H19V22C19 21.4477 19.4477 21 20 21C20.5523 21 21 21.4477 21 22V27C21 27.5523 20.5523 28 20 28H1C0.447715 28 0 27.5523 0 27V5C0 4.96548 0.00174889 4.93137 0.00516289 4.89776C0.0197639 4.75398 0.0648215 4.61921 0.133782 4.5C0.242189 4.3126 0.409667 4.16364 0.610755 4.07859Z"
-                  fill="black" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M25.7071 12.1213C25.3166 11.7308 25.3166 11.0976 25.7071 10.7071C26.0976 10.3166 26.7308 10.3166 27.1213 10.7071L31.364 14.9497C31.4232 15.0089 31.4734 15.0738 31.5147 15.1425C31.8055 15.3174 32 15.636 32 16C32 16.3402 31.8301 16.6408 31.5705 16.8214C31.522 16.9302 31.4532 17.0321 31.364 17.1213L27.1213 21.364C26.7308 21.7545 26.0976 21.7545 25.7071 21.364C25.3166 20.9734 25.3166 20.3403 25.7071 19.9498L28.6569 17L14 17C13.4477 17 13 16.5523 13 16C13 15.4477 13.4477 15 14 15L28.5858 15L25.7071 12.1213Z"
-                  fill="black" />
-              </svg>
-
-              <span class="section-profile__name normal">Cerrar cesion</span>
-            </div>
-
-          </div>
+        <div class="c-user">
+          <img src="assets/img/movies/example01.jpg" class="c-user__picture o-picture-round">
+          <span class="c-user__name o-font-title">Alexis Lozada</span>
         </div>
+
+        <div class="c-options">
+          <div class="c-options__item">
+            <svg class="c-options__item-icon o-icon-option" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path
+                d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z" />
+            </svg>
+            <a href="./edit-profile.html" class="c-options__link">
+              <span class="c-options__link-content o-font-normal">Perfil y contrasseña</span>
+            </a>
+          </div>
+          <div class="c-options__item">
+            <svg class="c-options__item-icon o-icon-option" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path
+                d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z" />
+            </svg>
+            <a href="./edit-profile.html" class="c-options__link">
+              <span class="c-options__link-content o-font-normal">Configuracion</span>
+            </a>
+          </div>
+          <div class="c-options__item">
+            <svg class="c-options__item-icon o-icon-option" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path
+                d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z" />
+            </svg>
+            <a href="./edit-profile.html" class="c-options__link">
+              <span class="c-options__link-content o-font-normal">Cerrar sesion</span>
+            </a>
+          </div>
+          <div class="c-options__item">
+            <svg class="c-options__item-icon o-icon-option" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path
+                d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z" />
+            </svg>
+            <a href="./edit-profile.html" class="c-options__link">
+              <span class="c-options__link-content o-font-normal">Acerca de</span>
+            </a>
+          </div>
+
+        </div>
+
       </section>
     </main>
   </body>

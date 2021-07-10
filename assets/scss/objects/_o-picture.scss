@@ -51,4 +51,25 @@
     }
   }
 
+  &-round {
+    @include only-xs {
+      width        : 4em;
+      height       : 4em;
+      border-radius: 50%;
+    }
+
+    @include only-sm {
+      width        : 7.5em;
+      height       : 7.5em;
+      border-radius: 50%;
+    }
+
+    @include only-md {
+      width        : 8em;
+      height       : 8em;
+      border-radius: 50%;
+    }
+
+  }
+
 }

@@ -1,0 +1,11 @@
+.c-user {
+  display    : flex;
+  align-items: center;
+  gap        : 1em;
+
+  &__name {
+    color: $text-primary;
+  }
+
+
+}

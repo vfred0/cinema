@@ -173,6 +173,27 @@ img {
     height: 180px;
   }
 }
+@media (min-width: 0px) and (max-width: 500px) {
+  .o-picture-round {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+  }
+}
+@media (min-width: 501px) and (max-width: 1100px) {
+  .o-picture-round {
+    width: 7.5em;
+    height: 7.5em;
+    border-radius: 50%;
+  }
+}
+@media (min-width: 1101px) {
+  .o-picture-round {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+  }
+}
 
 .o-space-between {
   justify-content: space-between;
@@ -447,4 +468,13 @@ img {
   color: #12171c;
   border: 1px solid #3a586e;
   border-radius: 0.5em;
+}
+
+.c-user {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.c-user__name {
+  color: white;
 }

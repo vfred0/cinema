@@ -18,60 +18,88 @@
 
 
 <body>
-
-  <body>
-    <header class="main-header">
-      <div class="l-container">
-        <ul class="main-menu">
-          <li class="main-menu__item">
-            <a href="./index.html" class="main-menu__link">
-              <svg class="main-menu__back" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M18.6091 27.8468C19.2297 27.2262 19.2297 26.2199 18.6091 25.5993L8.49505 15.4853L18.6091 5.37123C19.2297 4.75059 19.2297 3.74433 18.6091 3.12368C17.9884 2.50304 16.9822 2.50304 16.3615 3.12369L5.1238 14.3614C4.83649 14.6487 4.68219 15.0187 4.66088 15.3947C4.63612 15.8311 4.79042 16.2757 5.12379 16.6091L16.3615 27.8468C16.9822 28.4675 17.9884 28.4675 18.6091 27.8468Z"
-                  fill="black" />
-              </svg>g
-            </a>
-          </li>
-          <li class="main-menu__item">
-            <span class="title">
-              Ver mas tarde
-            </span>
-          </li>
-        </ul>
+  <header class="c-header">
+    <div class="c-header__container o-container">
+      <ul class="c-header__menu">
+        <li class="c-header__menu-item">
+          <a class="c-header__menu-item-link" href="./index.html">
+            <svg class="c-header__menu-item-link-icon o-icon-back" viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.6091 27.8468C19.2297 27.2262 19.2297 26.2199 18.6091 25.5993L8.49505 15.4853L18.6091 5.37123C19.2297 4.75059 19.2297 3.74433 18.6091 3.12368C17.9884 2.50304 16.9822 2.50304 16.3615 3.12369L5.1238 14.3614C4.83649 14.6487 4.68219 15.0187 4.66088 15.3947C4.63612 15.8311 4.79042 16.2757 5.12379 16.6091L16.3615 27.8468C16.9822 28.4675 17.9884 28.4675 18.6091 27.8468Z" />
+            </svg>
+          </a>
+        </li>
+        <li class="c-header__menu-item">
+          <div class="c-header__menu-item-normal o-font-title">Ver mas tarde</div>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section class="c-search o-container">
+      <div class="c-search__container">
+        <input type="text" placeholder="Title" class="c-search-bar" />
+        <div class="c-selectbox">
+          <select class="c-selectbox__container normal" required>
+            <option class="c-selectbox__container-option o-font-normal" value="1">Action</option>
+            <option class="c-selectbox__container-option o-font-normal" value="2">Comedy</option>
+            <option class="c-selectbox__container-option o-font-normal" value="3">Romance</option>
+            <option class="c-selectbox__container-option o-font-normal" value="4">Documental</option>
+          </select>
+        </div>
       </div>
-    </header>
-
-
-    <main>
-      <section class="l-container">
-        <div class="section-main">
-          <div class="selectbox">
-            <select class="selectbox-options normal" required>
-              <option class="options-item normal" value="1">Action</option>
-              <option class="options-item normal" value="2">Comedy</option>
-              <option class="options-item normal" value="3">Romance</option>
-              <option class="options-item normal" value="4">Documental</option>
-            </select>
-          </div>
+    </section>
+    <section class="c-section o-container">
+      <div class="c-section__container">
+        <h2 class="c-section__container-title o-font-title">Resultados de busqueda</h2>
+        <div>
+          <span class="c-section__container-subtitle o-font-subtitle">10 coincidencias</span>
         </div>
-        <div class="section-result">
-          <div class="section-result__item movie">
-            <a href="./player.html ">
-              <img src="./assets/img/movies/example01.jpg" class="carousel-item__picture">
-            </a>
-          </div>
-          <div class="section-main__item movie">
-            <a href="./player.html ">
-              <img src="./assets/img/movies/example01.jpg" class="carousel-item__picture">
-            </a>
-          </div>
-          <div class="section-main__item movie">
-            <a href="./player.html ">
-              <img src="./assets/img/movies/example01.jpg" class="carousel-item__picture">
-            </a>
-          </div>
-
+      </div>
+      <div class="c-section__results o-grid-results">
+        <div class="c-card">
+          <a href="./player.html ">
+            <img src="assets/images/movies/example01.jpg" class="c-card__picture-movie o-picture-movie">
+          </a>
         </div>
-      </section>
-    </main>
-  </body>
+        <div class="c-card">
+          <a href="./player.html ">
+            <img src="assets/images/movies/example01.jpg" class="c-card__picture-movie o-picture-movie">
+          </a>
+        </div>
+        <div class="c-card">
+          <a href="./player.html ">
+            <img src="assets/images/movies/example01.jpg" class="c-card__picture-movie o-picture-movie">
+          </a>
+        </div>
+        <div class="c-card">
+          <a href="./player.html ">
+            <img src="assets/images/movies/example01.jpg" class="c-card__picture-movie o-picture-movie">
+          </a>
+        </div>
+        <div class="c-card">
+          <a href="./player.html ">
+            <img src="assets/images/movies/example01.jpg" class="c-card__picture-movie o-picture-movie">
+          </a>
+        </div>
+        <div class="c-card">
+          <a href="./player.html ">
+            <img src="assets/images/movies/example01.jpg" class="c-card__picture-movie o-picture-movie">
+          </a>
+        </div>
+        <div class="c-card">
+          <a href="./player.html ">
+            <img src="assets/images/movies/example01.jpg" class="c-card__picture-movie o-picture-movie">
+          </a>
+        </div>
+        <div class="c-card">
+          <a href="./player.html ">
+            <img src="assets/images/movies/example01.jpg" class="c-card__picture-movie o-picture-movie">
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>

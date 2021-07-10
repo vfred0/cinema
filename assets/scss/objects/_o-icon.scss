@@ -29,4 +29,19 @@
       width: 1.2em;
     }
   }
+
+  &-option {
+
+    @include only-xs {
+      width: 1.25em;
+    }
+
+    @include only-sm {
+      width: 1.35em;
+    }
+
+    @include only-md {
+      width: 1.45em;
+    }
+  }
 }

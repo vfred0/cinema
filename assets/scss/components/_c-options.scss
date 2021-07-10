@@ -1,0 +1,15 @@
+.c-options {
+  &__item {
+    display       : flex;
+    align-items   : center;
+    padding-bottom: 1em;
+    border-bottom : 1px solid $text-secondary;
+    padding-bottom: 16px;
+    margin-bottom : 1.3em;
+    gap           : .5em;
+  }
+
+  &__link-content {
+    color: $text-secondary;
+  }
+}
